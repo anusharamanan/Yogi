@@ -11,7 +11,7 @@ def search(listn,num):
             
     return False
 
-if search(listn,num)==True:
+if search(listn,num):
     print("Number is in list")
 else:
     print("Number is not in list")
