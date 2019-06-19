@@ -1,6 +1,8 @@
 import random
-listn=random.sample(range(100),10)
-num=input("Enter a number to be searched in list: ")
+listn=sorted(random.sample(range(100),10))
+num=input("Enter a number to be searched in sorted list: ")
+
+print(listn)
 
 if num in listn:
     print(num+" is present in list")
