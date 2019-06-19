@@ -15,7 +15,6 @@ def search(listn,num):
             return False
         elif num < listn[midnum]:
             listn=listn[:midnum]
-            print("1")
             print(listn)
         elif num > listn[midnum]:
             listn=listn[midnum:]
